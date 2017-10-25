@@ -9,7 +9,7 @@ import java.util.Date;
 
 /**
  *
- * @author Bethox
+ * @author eibanezf
  */
 public class principal {
 
