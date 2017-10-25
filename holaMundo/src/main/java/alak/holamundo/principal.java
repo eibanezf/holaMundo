@@ -5,17 +5,35 @@
  */
 package alak.holamundo;
 
+import java.util.Date;
+
 /**
  *
  * @author Bethox
  */
 public class principal {
 
-    /**
-     * @param args the command line arguments
-     */
+    private String nombre;
+    private Date fecha;
+
     public static void main(String[] args) {
-        // TODO code application logic here
+        System.out.println("Hola mundo");
     }
-    
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public Date getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(Date fecha) {
+        this.fecha = fecha;
+    }
+
 }
